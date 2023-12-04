@@ -1,0 +1,241 @@
+*{
+    font-family: serif;
+    background: lightslategray;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+
+background:lightblue;
+    padding: 20px;
+    font-size: 50px;
+    
+
+}
+.header :hover{
+    background:black;
+    color: blue;
+    transition: 5s;
+}
+
+.navbar{
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+    
+
+}
+ .hover  {
+       padding: 10px;
+       display: inline-flex;
+       justify-content: center;
+       flex-direction:column;
+        flex: 1;
+        background-color:linear-gradient(red,blue,yellow,orange);
+       
+        
+        
+
+}
+a{
+    padding: 10px;
+}
+#Home h1 {
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    color:black;
+    position: relative;
+    left: 500px;
+    border-radius: 5%;
+    text-shadow: 5px 10px 10px #434445;
+    font-size: 40px;
+    text-transform: uppercase;
+   
+    
+}
+
+#Home P{
+    display: block;
+    color: whitesmoke;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    left: 400px;
+    text-shadow: 3px 3px 3px #7AF2C3;
+    padding-bottom: 10px;
+
+
+}
+#Home h1:hover{
+    background-color: wheat;
+    transition: 5s;
+}
+
+
+
+.hover :hover{
+    background:whitesmoke;
+    transition: 5sec;
+    border-radius: 5%;
+}
+header{
+
+    padding: 5px;
+    border-radius: 5%;
+}       
+.footer{
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+    color: whitesmoke;
+    background: black;
+}
+ img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    
+ }
+ #Projects{
+    display:inline-grid;
+    grid-template-columns:auto auto auto;
+    column-gap: 100px;
+    row-gap: 100px;
+    
+    
+ }
+ .grid-items{
+    border: 10px solid black;
+    border-radius: 5%;
+ }
+ .grid-items img:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out ;
+ }
+
+    
+
+ 
+ 
+
+ 
+ input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: mediumpurple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: deeppink;
+  }
+  
+  
+  .contactform {
+    position: relative;    
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    z-index:2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    margin-top:3%;    
+    width: 50%;
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+      
+  }
+      
+  .contactform:hover { 
+   animation-name: gradient;
+   animation-duration: 15s;
+   animation-iteration-count: infinite;    
+      
+     
+  }
+  
+  
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+      
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: auto;
+      margin-top:0;
+    }
+  }
+  
+  
+  @keyframes gradient {
+    0%   {background-color: #D78DDB;}
+    20%   {background-color: #7AF2C3;}
+    40%  {background-color: #759CEC;}
+    60%   {background-color: #23F2EB;}
+    80%  {background-color: #F27723;}       
+    100% {background-color: #AD3BD7;}
+  }
+   
+  .hello{
+    margin: 10px;
+  }
+
+.say{
+    margin-top: -47px;
+   min-width: 20%;
+   color: black;
+   font-size: x-large;
+   display: flex;
+   justify-content: end;
+}
+.Sachin{
+    max-width: 100%;
+    border-radius: 10%;
+}
+.paragraph p {
+    font-size:15px;
+
+    }
+    .paragraph {
+        display: flex;
+    }
